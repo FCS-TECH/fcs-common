@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseVatInfo.cs" />
     <Compile Include="VatInfoDto.cs" />
     <Compile Include="VatState.cs" />
     <Compile Include="LifeCycle.cs" />
