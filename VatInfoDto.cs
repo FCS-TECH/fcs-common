@@ -24,6 +24,7 @@
 // <summary></summary>
 // ***********************************************************************
 
+using System;
 using System.Collections.Generic;
 
 namespace FCS.Lib.Common
@@ -38,6 +39,6 @@ namespace FCS.Lib.Common
         public string ZipCode { get; set; } = "";
         public List<VatState> States { get; set; } = new();
         public List<LifeCycle> LifeCycles { get; set; } = new();
-        public string RequestDate { get; set; } = "";
+        public string RequestDate { get; set; }
     }
 }
