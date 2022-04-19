@@ -24,7 +24,6 @@
 // <summary></summary>
 // ***********************************************************************
 
-using System;
 using System.Collections.Generic;
 
 namespace FCS.Lib.Common
