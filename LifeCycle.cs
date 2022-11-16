@@ -25,9 +25,19 @@
 // ***********************************************************************
 namespace FCS.Lib.Common
 {
+    /// <summary>
+    /// Class LifeCycle
+    /// </summary>
     public class LifeCycle
     {
+        /// <summary>
+        /// Cycle last updated
+        /// </summary>
         public string LastUpdate { get; set; } = "";
+        /// <summary>
+        /// Time Frame for life cycle
+        /// </summary>
+        /// <see cref="TimeFrame"/>
         public TimeFrame TimeFrame { get; set; } = new ();
 
     }

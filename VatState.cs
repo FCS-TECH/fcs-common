@@ -25,10 +25,23 @@
 // ***********************************************************************
 namespace FCS.Lib.Common
 {
+    /// <summary>
+    /// Class VatState
+    /// </summary>
     public class VatState
     {
+        /// <summary>
+        /// Last update of vatState
+        /// </summary>
         public string LastUpdate { get; set; } = "";
+        /// <summary>
+        /// The state
+        /// </summary>
         public string State { get; set; } = "";
+        /// <summary>
+        /// Time frame
+        /// </summary>
+        /// <see cref="TimeFrame"/>
         public TimeFrame TimeFrame { get; set; } = new();
     }
 }

@@ -25,9 +25,18 @@
 // ***********************************************************************
 namespace FCS.Lib.Common
 {
+    /// <summary>
+    /// Class TimeFrame
+    /// </summary>
     public class TimeFrame
     {
+        /// <summary>
+        /// From date
+        /// </summary>
         public string StartDate { get; set; } = "";
+        /// <summary>
+        /// To date
+        /// </summary>
         public string EndDate { get; set; } = "";
     }
 }

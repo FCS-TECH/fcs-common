@@ -28,16 +28,46 @@ using System.Collections.Generic;
 
 namespace FCS.Lib.Common
 {
+    /// <summary>
+    /// Class VatInfoDto
+    /// </summary>
     public class VatInfoDto
     {
+        /// <summary>
+        /// Entity vat number
+        /// </summary>
         public string VatNumber { get; set; } = "";
+        /// <summary>
+        /// Entity name
+        /// </summary>
         public string Name { get; set; } = "";
+        /// <summary>
+        /// Entity co-location name
+        /// </summary>
         public string CoName { get; set; } = "";
+        /// <summary>
+        /// Entity address
+        /// </summary>
         public string Address { get; set; } = "";
+        /// <summary>
+        /// Entity City
+        /// </summary>
         public string City { get; set; } = "";
+        /// <summary>
+        /// Entity postal code
+        /// </summary>
         public string ZipCode { get; set; } = "";
+        /// <summary>
+        /// List of entity states
+        /// </summary>
         public List<VatState> States { get; set; } = new();
+        /// <summary>
+        /// List of entity life cycles
+        /// </summary>
         public List<LifeCycle> LifeCycles { get; set; } = new();
+        /// <summary>
+        /// Registrar request date
+        /// </summary>
         public string RequestDate { get; set; }
     }
 }
