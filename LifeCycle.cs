@@ -39,6 +39,5 @@ namespace FCS.Lib.Common
         /// </summary>
         /// <see cref="TimeFrame"/>
         public TimeFrame TimeFrame { get; set; } = new ();
-
     }
 }
