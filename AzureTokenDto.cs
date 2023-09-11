@@ -25,6 +25,7 @@
 // ***********************************************************************
 
 
+using System.Text.Json.Serialization;
 
 namespace FCS.Lib.Common
 {
