@@ -31,7 +31,7 @@ namespace FCS.Lib.Common;
 /// <summary>
 /// Class VatStateInfo
 /// </summary>
-public class VatStateInfo
+public class TaxIdInfo
 {
     /// <summary>
     /// Business entity name
