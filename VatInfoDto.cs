@@ -1,13 +1,13 @@
 ﻿// ***********************************************************************
 // Assembly         : FCS.Lib.Common
-// Author          : fhdk
-// Created          : 2022 12 17 13:33
+// Author           : 
+// Created          : 2023 10 01 11:03
 // 
-// Last Modified By: fhdk
-// Last Modified On : 2023 03 14 09:16
+// Last Modified By : root
+// Last Modified On : 2023 10 02 15:23
 // ***********************************************************************
 // <copyright file="VatInfoDto.cs" company="FCS">
-//     Copyright (C) 2022-2023 FCS Frede's Computer Services.
+//     Copyright (C) 2023-2023 FCS Frede's Computer Services.
 //     This program is free software: you can redistribute it and/or modify
 //     it under the terms of the GNU Affero General Public License as
 //     published by the Free Software Foundation, either version 3 of the
@@ -29,52 +29,52 @@ using System.Collections.Generic;
 namespace FCS.Lib.Common;
 
 /// <summary>
-/// Class VatInfoDto
+///     Class VatInfoDto
 /// </summary>
 public class VatInfoDto
 {
     /// <summary>
-    /// Entity vat number
+    ///     Entity vat number
     /// </summary>
     public string VatNumber { get; set; } = "";
 
     /// <summary>
-    /// Entity name
+    ///     Entity name
     /// </summary>
     public string Name { get; set; } = "";
 
     /// <summary>
-    /// Entity co-location name
+    ///     Entity co-location name
     /// </summary>
     public string CoName { get; set; } = "";
 
     /// <summary>
-    /// Entity address
+    ///     Entity address
     /// </summary>
     public string Address { get; set; } = "";
 
     /// <summary>
-    /// Entity City
+    ///     Entity City
     /// </summary>
     public string City { get; set; } = "";
 
     /// <summary>
-    /// Entity postal code
+    ///     Entity postal code
     /// </summary>
     public string ZipCode { get; set; } = "";
 
     /// <summary>
-    /// List of entity states
+    ///     List of entity states
     /// </summary>
     public List<VatState> States { get; set; } = new();
 
     /// <summary>
-    /// List of entity life cycles
+    ///     List of entity life cycles
     /// </summary>
     public List<LifeCycle> LifeCycles { get; set; } = new();
 
     /// <summary>
-    /// Registrar request date
+    ///     Registrar request date
     /// </summary>
     public string RequestDate { get; set; }
 }

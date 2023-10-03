@@ -1,13 +1,13 @@
 ﻿// ***********************************************************************
 // Assembly         : FCS.Lib.Common
-// Author          : fhdk
-// Created          : 2022 12 17 13:33
+// Author           : 
+// Created          : 2023 10 01 11:03
 // 
-// Last Modified By: fhdk
-// Last Modified On : 2023 03 14 09:16
+// Last Modified By : root
+// Last Modified On : 2023 10 02 15:23
 // ***********************************************************************
-// <copyright file="VatStateInfo.cs" company="FCS">
-//     Copyright (C) 2022-2023 FCS Frede's Computer Services.
+// <copyright file="TaxIdInfo.cs" company="FCS">
+//     Copyright (C) 2023-2023 FCS Frede's Computer Services.
 //     This program is free software: you can redistribute it and/or modify
 //     it under the terms of the GNU Affero General Public License as
 //     published by the Free Software Foundation, either version 3 of the
@@ -29,32 +29,32 @@ using System;
 namespace FCS.Lib.Common;
 
 /// <summary>
-/// Class VatStateInfo
+///     Class VatStateInfo
 /// </summary>
 public class TaxIdInfo
 {
     /// <summary>
-    /// Business entity name
+    ///     Business entity name
     /// </summary>
     public string Name { get; set; } = "";
 
     /// <summary>
-    /// Business entity vat number
+    ///     Business entity vat number
     /// </summary>
     public string VatNumber { get; set; } = "";
 
     /// <summary>
-    /// Flag indicating valid format
+    ///     Flag indicating valid format
     /// </summary>
     public bool VatNumberValid { get; set; }
 
     /// <summary>
-    /// Flag indicating if entity is out of business
+    ///     Flag indicating if entity is out of business
     /// </summary>
     public bool HasFolded { get; set; }
 
     /// <summary>
-    /// Request date
+    ///     Request date
     /// </summary>
     public DateTime RequestDate { get; set; }
 }

@@ -1,10 +1,10 @@
 ﻿// ***********************************************************************
 // Assembly         : FCS.Lib.Common
-// Author          : fhdk
-// Created          : 2023 01 19 11:41
+// Author           : 
+// Created          : 2023 10 01 11:03
 // 
-// Last Modified By: fhdk
-// Last Modified On : 2023 03 14 09:16
+// Last Modified By : root
+// Last Modified On : 2023 10 02 15:23
 // ***********************************************************************
 // <copyright file="LifeCycle.cs" company="FCS">
 //     Copyright (C) 2023-2023 FCS Frede's Computer Services.
@@ -27,18 +27,18 @@
 namespace FCS.Lib.Common;
 
 /// <summary>
-/// Class LifeCycle
+///     Class LifeCycle
 /// </summary>
 public class LifeCycle
 {
     /// <summary>
-    /// Cycle last updated
+    ///     Cycle last updated
     /// </summary>
     public string LastUpdate { get; set; } = "";
 
     /// <summary>
-    /// Time Frame for life cycle
+    ///     Time Frame for life cycle
     /// </summary>
-    /// <see cref="TimeFrame"/>
+    /// <see cref="TimeFrame" />
     public TimeFrame TimeFrame { get; set; } = new();
 }
